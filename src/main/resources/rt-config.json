@@ -1,0 +1,13 @@
+{
+  "useSslRt": false,
+  "name": "test",
+  "topics": {
+    "insert": "fwd-points",
+    "query": ""
+  },
+  "insert": {
+    "insert": [":rt-fwd-points-north-fwd-points:5002"],
+    "query": []
+  },
+  "query": []
+}

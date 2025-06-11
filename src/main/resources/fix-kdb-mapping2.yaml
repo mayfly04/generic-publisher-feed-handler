@@ -1,0 +1,24 @@
+- msgType: F
+  table: trade
+  tags:
+    55:
+      column: sym
+      parse: string
+    54:
+      column: side
+      parse: int
+    44:
+      column: price
+      parse: double
+- msgType: D
+  table: order
+  tags:
+    11:
+      column: clOrdId
+      parse: string
+    38:
+      column: orderQty
+      parse: int
+    40:
+      column: ordType
+      parse: string

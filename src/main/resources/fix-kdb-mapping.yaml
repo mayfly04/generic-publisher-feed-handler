@@ -1,0 +1,14 @@
+messageMappings:
+  - msgType: "F"
+    table: "trades"
+    columns:
+      - name: "ccyPair"
+        tag: 55
+        type: "string"
+        parserClass: "com.di.fixadapter.parsers.RemoveSlashParser"
+      - name: "price"
+        tag: 44
+        type: "double"
+      - name: "qty"
+        tag: 38
+        type: "int"
